@@ -1,7 +1,3 @@
-# 3rdShield
-
-
-
 # PARKING SLOT DETECTION
 Finding a vaccant spot in a parking  lot is a tough ask. It is even difficult to manage such facilites with a varying incoming traffic. Which slots are vaccant at this instant? What time do we need more slots. Are commuters finding it difficult to reach to a particular slot?
 ![](./assets/lot.jpg)
@@ -119,4 +115,3 @@ wget "https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_c
 ! python resnet_occupancy.py
 
 ```
-
