@@ -1,6 +1,7 @@
 # PARKING SLOT DETECTION
+# DEMONSTRATION PURPOSE ONLY
 Finding a vaccant spot in a parking  lot is a tough ask. It is even difficult to manage such facilites with a varying incoming traffic. Which slots are vaccant at this instant? What time do we need more slots. Are commuters finding it difficult to reach to a particular slot?
-![](./assets/lot.jpg)
+
 <br>
 We corrently use either a network of ground mounted occupancy sensor or a large staff to determine some of the answers to these questions. Sensors are quite effective but need maintainence and cost about 40 -80$ per node in unit + installation. A staff only sollution is cumbersome and error prone
  ![](./assets/vehicle-detection.jpg)
@@ -9,11 +10,6 @@ One approch to the problem can be using the security camera footage to detect th
 The code tries to address some these problems.
 
 ---
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=O4oNdFlYfgY" 
-        target="_blank"><img src="http://img.youtube.com/vi/O4oNdFlYfgY/0.jpg" 
-        alt="PARKING SLOT OCCUPANCY DETECTION" width="720" height="540" border="2" />
-</a>
 
 ---
 
@@ -24,10 +20,6 @@ The problem can be broken into two parts detecting the parking slot location and
 MaskRCNN /  YOLO provides us means to tackle the first problem while RESNET /VGG classifiers can help us detect occupancy.
 
 ---
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=lvY7Vyex2J0" 
-        target="_blank"><img src="http://img.youtube.com/vi/lvY7Vyex2J0/0.jpg" 
-        alt="PARKING SLOT  DETECTION" width="720" height="540" border="2" />
-</a>
 ---
 
 ## DOWNLOAD THE DATA
@@ -75,7 +67,6 @@ I have used both maskrcnn and yolo. Maskrcnn unsuprisingly detects finer objects
 
 
 
-![Detection Parking Slots using MASKRCNN](assets/carslots.png)
 
 
 
@@ -89,9 +80,6 @@ python ./convert.py ./yolov3.cfg yolov3.weights model_data/yolo.h5
 wget "https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5"
 
 ```
-
-![](./assets/detection_final.png)
-
 
 
 ### Specialize YOLO to cars
